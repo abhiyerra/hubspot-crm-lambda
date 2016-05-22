@@ -1,0 +1,11 @@
+{
+    "name": "hubspot-crm-contact-form",
+    "description": "Backend to post to a HubSpot CRM",
+    "memory": 128,
+    "timeout": 5,
+    "runtime": "python",
+    "handler": "index.handler",
+    "role": "arn:aws:iam::451305228097:role/ApexPolicy",
+    "defaultEnvironment": "dev",
+    "environment": {}
+}
